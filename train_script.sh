@@ -1,0 +1,1 @@
+python main.py     --train_data "train_data_4cap.zip"     --batch_size 24     --num_epochs 10     --learning_rate 0.0002     --report_interval 50     --noise_dim 100     --projection_dim 128     --clip_embedding_dim 512     --checkpoint_path "model_exp1"     --result_path "images_exp1"     --num_stage 3     --resume_epoch 5     --use_uncond_loss --use_contrastive_loss 
